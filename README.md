@@ -3,7 +3,7 @@
 </div>
 
 
-<h2 align= 'center' style = 'font-size:90px'>Python Web Scraper</h2>
+<h2 align= 'center' style = 'font-size:120px'>Python Web Scraper</h2>
 
 
 Python web scraping is a technique used for gathering data from web pages. This does the typical task of exploring and downloading the pages or grabbing content, and store in a specific data format.
