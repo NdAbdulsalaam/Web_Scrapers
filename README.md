@@ -1,9 +1,9 @@
-<div style="text-align: center;">
-<img src="https://i1.wp.com/pyblog.in/wp-content/uploads/2018/12/webscrapping-banner.png?w=1500&ssl=1" alt='Web Scrapping Banner' />
+<div style="text-align: center">
+<img src="https://i1.wp.com/pyblog.in/wp-content/uploads/2018/12/webscrapping-banner.png?w=15000&ssl=1" alt='Web Scrapping Banner' />
 </div>
 
 
-<h2 align= 'center' style = 'font-size:60px'>Python Web Scraper</h2>
+<h2 align= 'center' style = 'font-size:90px'>Python Web Scraper</h2>
 
 
 Python web scraping is a technique used for gathering data from web pages. This does the typical task of exploring and downloading the pages or grabbing content, and store in a specific data format.
@@ -13,7 +13,7 @@ I have demostrated in this notebook how to scrape [Amazon](Amazon_scraper.ipynb)
 The Amazon scraper script scrapes the site at intervals and also sends noification to the email provided when the price of a particular item is between the specified price range.
 
 # NOTE
-- Check my [WeRateDogs](../WeRateDog_follower_analysis) repository to see Twitter scraping in action
+- Check my [WeRateDogs](https://github.com/nurudeenabdulsalaam/WeRateDogs_twitter_analysis) repository to see Twitter scraping in action
 - Periodic scraping was not used for Wikipedia because it is a static web page.
 
 - These python scripts were written as notebook for easy usability 
