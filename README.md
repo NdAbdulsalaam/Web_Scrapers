@@ -6,7 +6,7 @@
 
 Python web scraping is a technique used for gathering data from web pages. This does the typical task of exploring and downloading the pages or grabbing content, and store in a specific data format.
 
-I have demostrated in this notebook how to scrape [Amazon](Amazon_scraper.ipynb) and [Wikipedia](Wikipedia_scraper.ipynb) websites, stored output as csv format being the widely used format, and send notification to user when certain criteria are met.
+I have demostrated in this notebook how to scrape [Amazon](Amazon_Scraper.ipynb) and [Wikipedia](Wikipedia_scraper.ipynb) websites, stored output as csv format being the widely used format, and send notification to user when certain criteria are met.
 
 The Amazon scraper script scrapes the site at intervals and also sends noification to the email provided when the price of a particular item is between the specified price range.
 
