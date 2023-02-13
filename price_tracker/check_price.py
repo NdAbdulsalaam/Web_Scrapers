@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 # Test (default) url
 
 def check_price(filename, url):
-    url = url
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36", "Accept-Encoding":"gzip, deflate", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "DNT":"1","Connection":"close", "Upgrade-Insecure-Requests":"1"}
     page = requests.get(url, headers=headers)
     soup = BeautifulSoup(page.content, "html.parser")
@@ -45,6 +44,7 @@ def check_price(filename, url):
             thewriter = writer(f)
             thewriter.writerow(data)
  
+    os.chdir("..")
     return float(price)
 
 
