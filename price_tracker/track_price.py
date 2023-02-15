@@ -13,8 +13,8 @@ def track_price(url=url, target_price=target_price, product=product, to_address=
     if test.lower() == "y":
         filename = product + ".csv"
     else:
-        url = input("Paste url: ")
-        target_price = int(input("What is your target price? "))
+        url = input("Paste product url: ")
+        target_price = int(input("How much do you want to buy it? "))
         product = input("Product name: ")
         filename = product + ".csv"
         to_address = input("Email to get notification: ")
