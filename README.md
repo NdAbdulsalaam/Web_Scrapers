@@ -25,10 +25,10 @@ Amazon scraping script that scrapes Amazon at intervals and sends noification to
 This code runs the track_price function, which tracks the price of a product on Amazon and sends an email notification if the price drops below a certain target price. The script prompts the user to select between using testing parameters or input the URL of the product, the target price, the name of the product, and the email address to send the notification to, manually. It then runs a loop that repeatedly checks the price of the product and sleeps for a certain amount of time before checking again. If the price drops below the target price, it calls the send_mail function to send an email notification. The if __name__ == "__main__": statement ensures that the track_price function is only run if the script is run as the main module, and not if it is imported into another script.
 
 ## How to Clone 
-copy codes and run in your terminal (while inside the folder for this project)
+copy code and run in your terminal (while inside the folder for this project)
 ```
 git clone https://github.com/nurudeenabdulsalaam/Web_Scrapers
-cd price_tracker/
+cd /Web_Scrapers/price_tracker/
 python run.py
 ```
 
