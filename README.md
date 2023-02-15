@@ -30,7 +30,7 @@ This code runs the track_price function, which tracks the price of a product on 
 - While inside the folder for this project, copy code below and run in your terminal.
 ```
 git clone https://github.com/nurudeenabdulsalaam/Web_Scrapers
-cd /Web_Scrapers/price_tracker/
+cd Web_Scrapers/price_tracker/
 python run.py
 ```
 
