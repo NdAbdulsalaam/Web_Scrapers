@@ -21,10 +21,3 @@ def send_mail(to_address, price, product, target_price, url):
         to_addrs= to_address,
         msg = msg
     )
-
-
-import smtplib
-
-server = smtplib.SMTP_SSL('smtp.gmail.com',465)
-
-print(help(server))
