@@ -35,8 +35,8 @@ python run.py
 ```
 
 ## Others
-- Notebooks are also provide to facilitate experimental learning 
+- Check my [WeRateDogs](https://github.com/nurudeenabdulsalaam/WeRateDogs_twitter_analysis) repository to see Twitter scraping in action
+
+- Notebooks are also provided to facilitate experimental learning 
   
 - Periodic scraping was not used for Wikipedia because it is a static web page.
-
-- Check my [WeRateDogs](https://github.com/nurudeenabdulsalaam/WeRateDogs_twitter_analysis) repository to see Twitter scraping in action
