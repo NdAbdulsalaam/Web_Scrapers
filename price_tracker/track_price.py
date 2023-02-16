@@ -5,12 +5,12 @@ from send_mail import send_mail
 url = 'https://www.amazon.com/Nokia-Steel-Hybrid-Smartwatch-Resistant/dp/B0798GWRGG/ref=sr_1_9?keywords=activity%2Btrackers%2Band%2Bsmartwatches&pd_rd_r=a6c0a0a4-29d8-4cfd-921c-280c740d508b&pd_rd_w=JX9Xe&pd_rd_wg=FU6Y3&pf_rd_p=33f8f65b-b95c-44af-8b89-e59e69e79828&pf_rd_r=T1N28BM9FNAEA37ASGCN&qid=1663312795&sr=8-9&th=1'
 target_price = 230
 product = "Smartwatch"
-to_address = "olaitansalaam@outlook.com"
 sleep = 1
 
-def track_price(url=url, target_price=target_price, product=product, to_address=to_address, sleep=sleep):
+def track_price(url=url, target_price=target_price, product=product, sleep=sleep):
     test = input("Do you want to use test data (y/n)?: ")
     if test.lower() == "y":
+        to_address = input("Email to get notification: ")
         filename = product + ".csv"
     else:
         url = input("Paste product url: ")
